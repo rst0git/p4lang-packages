@@ -1,0 +1,13 @@
+# Source repositories
+p4c/
+bmv2/
+pi/
+
+# Debian files
+**/*.debian.tar.xz
+**/*.orig.tar.gz
+**/*.buildinfo
+**/*.changes
+**/*.ddeb
+**/*.deb
+**/*.dsc
