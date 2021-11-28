@@ -1,3 +1,9 @@
+p4lang-p4c (1.2.2-7) bullseye; urgency=medium
+
+  * Add git build depdendency
+
+ -- Radostin Stoyanov <radostin@stoyanov.io>  Sun, 28 Nov 2021 20:07:04 +0000
+
 p4lang-p4c (1.2.2-6) bullseye; urgency=medium
 
   * Update to commit 6c23bf3e6
