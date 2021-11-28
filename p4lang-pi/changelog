@@ -1,3 +1,10 @@
+p4lang-pi (0.1.0-9) bullseye; urgency=medium
+
+  * Add git build depdendency
+  * Update to commit 66da143
+
+ -- Radostin Stoyanov <radostin@stoyanov.io>  Sun, 28 Nov 2021 20:27:58 +0000
+
 p4lang-pi (0.1.0-8) bullseye; urgency=medium
 
   * Add python3 dependencies
