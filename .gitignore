@@ -7,6 +7,7 @@ pi/
 **/*.debian.tar.xz
 **/*.orig.tar.gz
 **/*.buildinfo
+**/*.build
 **/*.changes
 **/*.ddeb
 **/*.deb
