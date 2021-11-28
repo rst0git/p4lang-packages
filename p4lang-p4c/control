@@ -8,6 +8,7 @@ Build-Depends:
     bison,
     cmake,
     flex,
+    git,
     gfortran | gfortran-10,
     libboost-dev,
     libboost-all-dev,

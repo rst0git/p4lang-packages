@@ -6,6 +6,7 @@ Build-Depends:
     autoconf,
     automake,
     debhelper (>= 12),
+    git,
     gnupg,
     dh-python,
     libboost-dev,
