@@ -42,5 +42,8 @@ pi-sdeb: pi
 
 clean:
 	rm -rf p4c bmv2 pi
+	if [ -d "p4c" ]; then cd p4c && git clean -dfx; fi
+	if [ -d "bmv2" ]; then cd bmv2 && git clean -dfx; fi
+	if [ -d "pi" ]; then cd pi && git clean -dfx; fi
 
 .PHONY: p4c-deb p4c-sdeb bv2-deb bv2-sdeb pi-deb pi-sdeb clean
