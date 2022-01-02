@@ -25,14 +25,14 @@ dpkg-buildpackage -us -uc
 
 This command creates a source package for a new version of the source code file (`.orig.tar.gz`).
 ```bash
-debuild -S -sa
+debuild -sa
 ```
 
 ### Source package update
 
 This command creates an update for source package with an existing source code file (`.orig.tar.gz`).
 ```bash
-debuild -S -sd
+debuild -sd
 ```
 
 ## Files under the `debian` directory

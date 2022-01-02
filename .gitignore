@@ -3,6 +3,9 @@ p4c/
 bmv2/
 pi/
 
+# Build directory used in build.sh
+build/
+
 # Debian files
 **/*.debian.tar.xz
 **/*.orig.tar.gz
