@@ -2,6 +2,13 @@
 
 This repository contains all files necessary to build packages for Ubuntu and Debian.
 
+To build all debian packages run inside Ubuntu 20.04 container using Docker run the
+following script:
+
+```bash
+./build.sh
+```
+
 # Ubuntu/Debian
 
 Building a package for Ubuntu or Debian requires a number of files to be added in a subdirectory directory, called `debian`, in the source tree. These files can be used to build two types of packages: binary packages and source packages.
@@ -10,9 +17,9 @@ Binary packages contain executables, configuration files, man pages, copyright i
 
 In contrast, source packages contain the original unmodified source code in gzip-compressed tar format, a file describing the source package, and usually a file that contains changes to the original source. Source packages are used by automated build systems such as [Launchpad](https://launchpad.net/) and [Open Build Service](https://openbuildservice.org/).
 
-## Building a Package
+## Building packages
 
-The following commands can be used to build a package.
+The following commands can be used to build a Debian/Ubuntu package manually.
 
 ### Binary package
 
@@ -47,7 +54,7 @@ This is an executable Makefile that is used to create the package. Like any othe
 
 ### `changelog`
 
-This file contains a brief explaination of changes and updates to the package.
+This file contains a brief explanation of changes and updates to the package.
 
 ### `copyright`
 
