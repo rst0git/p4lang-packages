@@ -9,6 +9,10 @@ following script:
 ./build.sh
 ```
 
+## Build dependencies
+
+Note that `build.sh` requires [Podman](https://podman.io/getting-started/installation.html) or [Docker](https://docs.docker.com/engine/install/) to be pre-installed.
+
 # Ubuntu/Debian
 
 Building a package for Ubuntu or Debian requires a number of files to be added in a subdirectory directory, called `debian`, in the source tree. These files can be used to build two types of packages: binary packages and source packages.
