@@ -11,7 +11,7 @@ bmv2:
 	cp -r p4lang-bmv2 bmv2/debian
 
 pi:
-	git clone --recurse-submodules --depth=1 -b main https://github.com/p4lang/PI pi
+	git clone --recurse-submodules --depth=1 -b v0.1.0 https://github.com/p4lang/PI pi
 	rm -rf pi/debian
 	cp -r p4lang-pi pi/debian
 

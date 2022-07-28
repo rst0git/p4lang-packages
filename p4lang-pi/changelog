@@ -1,3 +1,9 @@
+p4lang-pi (0.1.0-11) bullseye; urgency=medium
+
+  * New upstream version
+
+ -- Radostin Stoyanov <radostin@redhat.com>  Thu, 28 Jul 2022 09:50:49 +0100
+
 p4lang-pi (0.1.0-10) bullseye; urgency=medium
 
   * Update dependencies
