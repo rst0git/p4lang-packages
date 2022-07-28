@@ -6,7 +6,7 @@ p4c:
 	cp -r p4lang-p4c p4c/debian
 
 bmv2:
-	git clone --recurse-submodules --depth=1 -b main https://github.com/p4lang/behavioral-model bmv2
+	git clone --recurse-submodules --depth=1 -b 1.15.0 https://github.com/p4lang/behavioral-model bmv2
 	rm -rf bmv2/debian
 	cp -r p4lang-bmv2 bmv2/debian
 

@@ -1,3 +1,9 @@
+p4lang-bmv2 (1.15.0-1) bullseye; urgency=medium
+
+  * New upstream version 1.15.0
+
+ -- Radostin Stoyanov <radostin@stoyanov.io>  Thu, 28 Jul 2022 09:50:49 +0100
+
 p4lang-bmv2 (1.14.0-7) bullseye; urgency=medium
 
   * Update dependencies
