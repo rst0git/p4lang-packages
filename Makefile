@@ -1,7 +1,7 @@
 all: pi-sdeb bmv2-sdeb p4c-sdeb
 
 p4c:
-	git clone --recurse-submodules --depth=1 -b main https://github.com/p4lang/p4c p4c
+	git clone --recurse-submodules --depth=1 -b v1.2.2.3 https://github.com/p4lang/p4c p4c
 	rm -rf p4c/debian
 	cp -r p4lang-p4c p4c/debian
 
