@@ -1,12 +1,12 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y && apt-get install -y \
     gpg \
     curl \
-    && echo 'deb http://download.opensuse.org/repositories/home:/rstoyanov/xUbuntu_20.04/ /' > /etc/apt/sources.list.d/home:rstoyanov.list \
-    && sh -c 'curl -fsSL https://download.opensuse.org/repositories/home:rstoyanov/xUbuntu_20.04/Release.key | gpg --dearmor > /etc/apt/trusted.gpg.d/home_rstoyanov.gpg'
+    && echo 'deb http://download.opensuse.org/repositories/home:/rstoyanov/xUbuntu_22.04/ /' > /etc/apt/sources.list.d/home:rstoyanov.list \
+    && sh -c 'curl -fsSL https://download.opensuse.org/repositories/home:rstoyanov/xUbuntu_22.04/Release.key | gpg --dearmor > /etc/apt/trusted.gpg.d/home_rstoyanov.gpg'
 
 RUN apt-get update -y && apt-get install -y \
     debhelper \
