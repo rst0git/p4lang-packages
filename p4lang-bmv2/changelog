@@ -1,3 +1,9 @@
+p4lang-bmv2 (1.15.0-2) bullseye; urgency=medium
+
+  * Enable support for Ubuntu 22.04
+
+ -- Radostin Stoyanov <radostin@stoyanov.io>  Tue, 02 Aug 2022 16:24:32 +0100
+
 p4lang-bmv2 (1.15.0-1) bullseye; urgency=medium
 
   * New upstream version 1.15.0
