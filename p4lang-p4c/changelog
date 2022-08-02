@@ -1,3 +1,10 @@
+p4lang-p4c (1.2.3.0-1) bullseye; urgency=medium
+
+  * New upstream release v1.2.3.0
+  * Enable support for Ubuntu 22.04
+
+ -- Radostin Stoyanov <radostin@redhat.com>  Tue, 02 Aug 2022 16:24:32 +0100
+
 p4lang-p4c (1.2.2.3-1) bullseye; urgency=medium
 
   * New upstream version v1.2.2.3
