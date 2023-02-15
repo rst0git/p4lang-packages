@@ -1,3 +1,7 @@
+[![p4c](https://build.opensuse.org/projects/home:p4lang/packages/p4lang-p4c/badge.svg?type=ratio)](https://build.opensuse.org/package/show/home:p4lang/p4lang-p4c)
+[![BMv2](https://build.opensuse.org/projects/home:p4lang/packages/p4lang-bmv2/badge.svg?type=ratio)](https://build.opensuse.org/package/show/home:p4lang/p4lang-bmv2)
+[![PI](https://build.opensuse.org/projects/home:p4lang/packages/p4lang-pi/badge.svg?type=ratio)](https://build.opensuse.org/package/show/home:p4lang/p4lang-pi)
+
 # P4 Packages
 
 This repository contains all files necessary to build packages for Ubuntu and Debian.
