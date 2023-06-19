@@ -1,3 +1,9 @@
+p4lang-p4c (1.2.4.0-1) bullseye; urgency=medium
+
+  * New upstream release v1.2.4.0
+
+ -- Radostin Stoyanov <radostin@redhat.com>  Mon, 19 Jun 2023 17:27:02 +0000
+
 p4lang-p4c (1.2.3.6-1) bullseye; urgency=medium
 
   * New upstream release v1.2.3.6
