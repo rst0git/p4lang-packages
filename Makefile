@@ -1,7 +1,7 @@
 all: pi-sdeb bmv2-sdeb p4c-sdeb
 
 p4c:
-	git clone --recurse-submodules --depth=1 -b v1.2.4.2 https://github.com/p4lang/p4c p4c
+	git clone --recurse-submodules -b main https://github.com/p4lang/p4c p4c
 	rm -rf p4c/debian
 	cp -r p4lang-p4c p4c/debian
 
@@ -21,6 +21,7 @@ pi:
 
 p4c-install-deps: p4c
 	cd p4c && \
+	git checkout 624c6be8076881e9af1e2f7d7691bc6c4416f4b1 && \
 	mk-build-deps -t "apt-get -o Debug::pkgProblemResolver=yes --no-install-recommends -y" -i -r
 
 bmv2-install-deps: bmv2
