@@ -27,6 +27,9 @@ override_dh_auto_configure:
 	dh_auto_configure -- --with-proto --with-cli
 
 override_dh_auto_build:
+	# Explicit 'optional' labels are disallowed in the Proto3 syntax.
+	# https://github.com/protocolbuffers/protobuf/blob/main/docs/field_presence.md
+	sed -i 's/optional //g' proto/p4runtime/proto/p4/config/v1/p4info.proto
 	$(MAKE) all
 
 override_dh_auto_install:
