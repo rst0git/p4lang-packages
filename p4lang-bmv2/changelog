@@ -1,3 +1,9 @@
+p4lang-bmv2 (1.15.0-5) bullseye; urgency=medium
+
+  * Update to upstream commit 6ee70b5eff7f510b32c074aaa4f00358f594fecb
+
+ -- Radostin Stoyanov <radostin@redhat.com>  Wed, 09 Aug 2023 13:40:15 +0100
+
 p4lang-bmv2 (1.15.0-4) bullseye; urgency=medium
 
   * Update to upstream commit 7a8843ffb87bab9eb0a44c993ae39a9fefca10cf
