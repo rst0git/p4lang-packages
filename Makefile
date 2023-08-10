@@ -22,6 +22,27 @@ pi:
 p4c-install-deps: p4c
 	cd p4c && \
 	git checkout 624c6be8076881e9af1e2f7d7691bc6c4416f4b1 && \
+	mkdir -p fetch_content build && cd fetch_content && \
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=RELEASE \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DENABLE_BMV2=ON \
+		-DENABLE_EBPF=ON \
+		-DENABLE_UBPF=ON \
+		-DENABLE_DPDK=ON \
+		-DENABLE_P4C_GRAPHS=ON \
+		-DENABLE_P4TEST=ON \
+		-DENABLE_DOCS=OFF \
+		-DENABLE_GC=ON \
+		-DENABLE_GTESTS=OFF \
+		-DENABLE_PROTOBUF_STATIC=ON \
+		-DENABLE_MULTITHREAD=OFF \
+		-DENABLE_TEST_TOOLS=ON \
+		-DENABLE_GMP=ON && \
+	cd .. && \
+	rm -rf fetch_content/_deps/*-build fetch_content/_deps/*-subbuild && \
+	cp -r fetch_content/_deps build/ && \
+	rm -rf fetch_content && \
 	mk-build-deps -t "apt-get -o Debug::pkgProblemResolver=yes --no-install-recommends -y" -i -r
 
 bmv2-install-deps: bmv2
