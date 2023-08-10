@@ -26,7 +26,7 @@ Build-Depends:
     libprotobuf-dev,
     libprotoc-dev,
     libssl-dev,
-    libthrift | libthrift-0.11.0 | libthrift-0.13.0 | libthrift-0.16.0,
+    libthrift | libthrift-0.11.0 | libthrift-0.13.0 | libthrift-0.16.0 | libthrift-0.17.0,
     libthrift-dev,
     libtool,
     pkg-config,
