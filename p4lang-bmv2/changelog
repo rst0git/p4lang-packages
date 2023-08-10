@@ -1,3 +1,9 @@
+p4lang-bmv2 (1.15.0-7) bullseye; urgency=medium
+
+  * Enable support for Ubuntu 23.04
+
+ -- Radostin Stoyanov <radostin@redhat.com>  Thu, 10 Aug 2023 11:07:03 +0100
+
 p4lang-bmv2 (1.15.0-6) bullseye; urgency=medium
 
   * Enable build for Ubuntu 23.04

@@ -39,7 +39,7 @@ Build-Depends:
     libgrpc-dev,
     libgrpc++-dev,
     protobuf-compiler-grpc,
-    libthrift | libthrift-0.11.0 | libthrift-0.13.0 | libthrift-0.16.0,
+    libthrift | libthrift-0.11.0 | libthrift-0.13.0 | libthrift-0.16.0 | libthrift-0.17.0,
     libthrift-dev,
     thrift-compiler,
     p4lang-bmv2
@@ -84,7 +84,7 @@ Depends:
     libgrpc-dev,
     libgrpc++-dev,
     protobuf-compiler-grpc,
-    libthrift | libthrift-0.11.0 | libthrift-0.13.0 | libthrift-0.16.0,
+    libthrift | libthrift-0.11.0 | libthrift-0.13.0 | libthrift-0.16.0 | libthrift-0.17.0,
     libthrift-dev,
     thrift-compiler,
     p4lang-bmv2
