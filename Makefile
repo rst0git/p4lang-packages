@@ -37,10 +37,14 @@ p4c-install-deps: p4c
 		-DENABLE_GTESTS=OFF \
 		-DENABLE_PROTOBUF_STATIC=ON \
 		-DENABLE_MULTITHREAD=OFF \
-		-DENABLE_TEST_TOOLS=ON \
-		-DENABLE_GMP=ON && \
+		-DENABLE_TEST_TOOLS=ON || (echo "CMake configuration failed" && exit 1) && \
 	cd .. && \
 	rm -rf fetch_content/_deps/*-build fetch_content/_deps/*-subbuild && \
+	for src_folder in fetch_content/_deps/*-src; do \
+		if [ -d "$$src_folder/.git"  ]; then \
+			(cd "$$src_folder" && git clean -dfx) || (echo "Git clean failed" && exit 1); \
+		fi; \
+	done && \
 	cp -r fetch_content/_deps build/ && \
 	rm -rf fetch_content && \
 	mk-build-deps -t "apt-get -o Debug::pkgProblemResolver=yes --no-install-recommends -y" -i -r
