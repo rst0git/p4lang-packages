@@ -56,7 +56,7 @@ bmv2-install-deps: bmv2
 
 pi-install-deps: pi
 	cd pi && \
-	git checkout e86801b69a51fc3462ed67ac2f7fa6762e827460 && \
+	git checkout 761eac4603d94273b899ed5daa3e7d558a1f343f && \
 	mk-build-deps -t "apt-get -o Debug::pkgProblemResolver=yes --no-install-recommends -y" -i -r
 
 #######################
