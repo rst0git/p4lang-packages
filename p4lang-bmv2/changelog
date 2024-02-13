@@ -1,3 +1,9 @@
+p4lang-bmv2 (1.15.0-8) bullseye; urgency=medium
+
+  * Update release to upstream commit 5f1c590c7bdb32ababb6d6fe18977cf13ae3b043
+
+ -- Radostin Stoyanov <radostin@redhat.com>  Tue, 13 Feb 2024 14:47:16 +0000
+
 p4lang-bmv2 (1.15.0-7) bullseye; urgency=medium
 
   * Enable support for Ubuntu 23.04

@@ -1,3 +1,9 @@
+p4lang-pi (0.1.0-16) bullseye; urgency=medium
+
+  * Update to upstream commit 24e0a3c08c964e36d235973556b90e0ae922b894
+
+ -- Radostin Stoyanov <radostin@redhat.com>  Tue, 13 Feb 2024 14:48:37 +0000
+
 p4lang-pi (0.1.0-15) bullseye; urgency=medium
 
   * Update to upstream commit 761eac4603d94273b899ed5daa3e7d558a1f343f

@@ -1,3 +1,9 @@
+p4lang-p4c (1.2.4.8-1) bullseye; urgency=medium
+
+  * Update release to version 1.2.4.8
+
+ -- Radostin Stoyanov <radostin@redhat.com>  Tue, 13 Feb 2024 14:47:16 +0000
+
 p4lang-p4c (1.2.4.2-2) bullseye; urgency=medium
 
   * Compatibility fix for aarch64

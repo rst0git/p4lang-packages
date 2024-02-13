@@ -21,7 +21,7 @@ pi:
 
 p4c-install-deps: p4c
 	cd p4c && \
-	git checkout 624c6be8076881e9af1e2f7d7691bc6c4416f4b1 && \
+	git checkout v1.2.4.8 && \
 	mkdir -p fetch_content build && cd fetch_content && \
 	cmake .. \
 		-DCMAKE_BUILD_TYPE=RELEASE \
@@ -51,12 +51,12 @@ p4c-install-deps: p4c
 
 bmv2-install-deps: bmv2
 	cd bmv2 && \
-	git checkout 6ee70b5eff7f510b32c074aaa4f00358f594fecb && \
+	git checkout 5f1c590c7bdb32ababb6d6fe18977cf13ae3b043 && \
 	mk-build-deps -t "apt-get -o Debug::pkgProblemResolver=yes --no-install-recommends -y" -i -r
 
 pi-install-deps: pi
 	cd pi && \
-	git checkout 761eac4603d94273b899ed5daa3e7d558a1f343f && \
+	git checkout 24e0a3c08c964e36d235973556b90e0ae922b894 && \
 	mk-build-deps -t "apt-get -o Debug::pkgProblemResolver=yes --no-install-recommends -y" -i -r
 
 #######################
